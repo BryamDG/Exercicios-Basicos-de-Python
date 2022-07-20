@@ -28,3 +28,11 @@ print("Esta em caixa baixa?{}.".format(n.islower()))
 print("Esta em branco?{}.".format(n.isspace()))
 lin()
 ***
+print("PROGRAMA DE CALCULO DA HIPOTENUSA")
+from math import hypot
+cateto_oposto=int(input("Quanto mede o cateto oposto? "))
+cateto_adjacente=int(input("Quanto mede o cateto adjacente? "))
+hi= hypot(cateto_oposto, cateto_adjacente)
+print("Dessa forma, atraves dos lados {} e {} nos temos uma hipotenusa {}.".format(cateto_oposto,cateto_adjacente,hi))
+lin()
+***
