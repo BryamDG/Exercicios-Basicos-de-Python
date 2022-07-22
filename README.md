@@ -36,3 +36,28 @@ hi= hypot(cateto_oposto, cateto_adjacente)
 print("Dessa forma, atraves dos lados {} e {} nos temos uma hipotenusa {}.".format(cateto_oposto,cateto_adjacente,hi))
 lin()
 ***
+# PROGRAMA DE SORTEIOS E CHAVES DE CODIGO
+print("PROGRAMA DE SORTEIOS E CHAVES CRIPTOGRAFADAS")
+import random
+import string
+def lin():
+    print("--"*40)
+lin()
+nome=input("qual sera o primeiro nome? ")
+nome2=input("qual sera o segundo nome? ")
+nome3=input("qual sera o terceiro nome do sorteio? ")
+lista= (nome,nome2,nome3)
+sorteio=random.choice(lista)
+print("O sorteio tera como ganhador o:", sorteio)
+import random
+sorte=random.randint(1,50)
+print("o numero sorteado sera: ",sorte)
+import math
+num= int(input("Escolha um numero para descobrir a raiz dele: "))
+raiz=math.sqrt(num)
+print("A raiz do numero {} será:{}.De acordo com a formula SQRT do programa".format(num,raiz))
+lin()
+print("Estarei testando a quebra de linha estudada no dia 21/07 \nteste numero 1 da quebra.... concluido!!")
+print("Agora estarei testando uma forma de nao quebrar mais a linha")
+***
+
