@@ -64,4 +64,20 @@ lin()
 print("Estarei testando a quebra de linha estudada no dia 21/07 \nteste numero 1 da quebra.... concluido!!")
 print("Agora estarei testando uma forma de nao quebrar mais a linha")
 ***
-
+# PROGRAMA DE GOTEJAMENTO E MICROGOTEJAMENTO PARA A AREA DE ENFERMAGEM
+import math
+import random
+def lin():
+    print("///"*50)
+lin()
+print("PROGRAMA DE CALCULO DE GOTAS E MICROGOTAS DA AREA DE ENFERMAGEM")
+ml=int(input("quantos ml?\n"))
+t=int(input("quantos horas?\n"))
+gotas= (ml/t)*1/3
+print("O numero de gotas que sera administrado ml será de:{} gotas p/minuto".format(gotas))
+print("Agora calculo de Gotejamento")
+ml2=int(input("quantos ml?\n"))
+t2=int(input("quantas horas?\n"))
+microgotas= ml2/t2
+print("A quantidade de Microgotas por minuto será de {} microgotas p/minuto".format(microgotas))
+lin()
