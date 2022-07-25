@@ -64,11 +64,20 @@ lin()
 print("Estarei testando a quebra de linha estudada no dia 21/07 \nteste numero 1 da quebra.... concluido!!")
 print("Agora estarei testando uma forma de nao quebrar mais a linha")
 ***
-# PROGRAMA DE GOTEJAMENTO E MICROGOTEJAMENTO PARA A AREA DE ENFERMAGEM
+# PROGRAMA DE GOTEJAMENTO E CALCULO PARA ENFERMAGEM
 import math
 import random
 def lin():
     print("///"*50)
+lin()
+print("PROGRAMA DE ENFERMAGEM -- REGRA DE 3")
+### X ---------------------------- variavel
+### variavel_multiplicadora ------ variavel_divisora
+variavel=float(input("qual valor da variavel?\n"))
+variavel_multiplicadora=float(input("qual o valor multiplicador?\n"))
+variavel_divisora=float(input("qual o valor divisor da igualdade?\n"))
+x=variavel*variavel_multiplicadora/variavel_divisora
+print("Desta forma, o numero de colheres de chá que devem ser feitas:{}".format(x))
 lin()
 print("PROGRAMA DE CALCULO DE GOTAS E MICROGOTAS DA AREA DE ENFERMAGEM")
 ml=int(input("quantos ml?\n"))
