@@ -153,4 +153,4 @@ print(listaa)
 
 nomes = ["Black Panther", "Solid Snake", "Kendrick Lamar", "Shadow the Hedgehog"]
 random.shuffle(nomes)
-print("A lista de apresentação é {}.",nomes)
+print("\nA lista de apresentação é {}.",nomes)
