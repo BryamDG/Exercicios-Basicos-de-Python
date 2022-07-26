@@ -90,3 +90,21 @@ t2=int(input("quantas horas?\n"))
 microgotas= ml2/t2
 print("A quantidade de Microgotas por minuto será de {} microgotas p/minuto".format(microgotas))
 lin()
+***
+# PROGRAMA DE NOMES ALEATORIOS EM ORDEM...
+import random 
+  
+listaa = ['A', 'B', 'C', 'D', 'E'] 
+  
+print("Original list : ") 
+print(listaa) 
+random.shuffle(listaa) 
+print("\nAfter the first shuffle : ") 
+print(listaa) 
+random.shuffle(listaa) 
+print("\nAfter the second shuffle : ") 
+print(listaa)
+
+nomes = ["Black Panther", "Solid Snake", "Kendrick Lamar", "Shadow the Hedgehog"]
+random.shuffle(nomes)
+print("A lista de apresentação é {}.",nomes)
