@@ -1,6 +1,7 @@
 # PYTHON - Alguns dos meus estudos sobre a linguagem
 ***
 # PROGRAMA DE CONVERSAO DE REAIS EM DOLAR
+
 print ("PROGRAMA DE CONVERSAO DE REAIS EM DOLAR")
 valor=float(input("quantos reais deseja converter? "))
 dolar=5.41
@@ -42,11 +43,13 @@ lin()
 ***
 # PROGRAMA DE SORTEIOS E CHAVES DE CODIGO
 print("PROGRAMA DE SORTEIOS E CHAVES CRIPTOGRAFADAS")
+
 import random
 import string
 def lin():
     print("--"*40)
 lin()
+
 nome=input("qual sera o primeiro nome? ")
 nome2=input("qual sera o segundo nome? ")
 nome3=input("qual sera o terceiro nome do sorteio? ")
