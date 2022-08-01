@@ -154,3 +154,66 @@ print(listaa)
 nomes = ["Black Panther", "Solid Snake", "Kendrick Lamar", "Shadow the Hedgehog"]
 random.shuffle(nomes)
 print("\nA lista de apresentação é {}.",nomes)
+
+#PROGRAMA DE REVISAO
+***
+
+import random
+def lin():
+    print("=="*30)
+from time import sleep
+
+lin()
+print("Sorteio de numeros e nomes")
+lin()
+num=random.randint(1,4)
+numero= int(input("escolha um numero de 1 a 4:\n"))
+print("sorteando o numero...")
+sleep(2)
+lin()
+
+if numero > 1 or numero < 4:
+    if numero == num:
+        print("Parabens por escolher o numero certo !!! {}".format(numero))
+    else:
+        print("Nao foi dessa vez !! voce errou o numero, pois o sorteado foi {}".format(num))
+if num == numero:
+    if num == 1:
+        print("bryam")
+if num == numero:
+    if num == 2:
+        print("brendon")
+if num == numero:
+    if num == 3:
+        print("bruno")
+if num == numero:
+    if num == 4:
+        print("bruna")
+sleep(3)
+lin()
+print("\nCALCULO DE MULTA NA RODOVIA")
+lin()
+print("Um determinado carro, percorrendo uma rodovia corre a 90km/hora,\nsupondo que o limite dela fosse 80km e que sera cobrado R$:12,00 por km a mais. \nquanto o motorista devera pagar se dirigir a 90km/hora ?")
+multa=12*(90-80)
+
+if multa > 80:
+    print("O motorista terá que pagar:",multa)
+else:
+    print("Esta dentro do limite de velocidade !!")
+lin()
+sleep(3)
+
+print("\nPROGRAMA DE AUMENTO DE SALARIO")
+lin()
+sal=float(input("Digite seu salario:\n"))
+
+if sal > 1250:
+    aumento =(sal/100)*10
+    print("O salario ira aumentar:{}".format(aumento))
+else:
+    aumento =(sal/100)*15
+    print("O salario vai aumentar mais entao ficará:{}".format(aumento))
+lin()
+sleep(4)
+
+
