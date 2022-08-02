@@ -215,5 +215,33 @@ else:
     print("O salario vai aumentar mais entao ficará:{}".format(aumento))
 lin()
 sleep(4)
+***
+#USO DE ELIF E IF 
 
+import random
+from time import sleep
+def lin():
+    print("=="*30)
+
+lin ()
+print("PROGRAMA DE EXERCICIOS")
+lin()
+sleep(3)
+
+print("Descubra se voce precisa ou nao fazer o alistamento militar !!")
+idade=int(input("Quantos anos voce tem?\n"))
+lin()
+sleep(4)
+
+if idade > 18:
+    print("Voce passou da idade para se alistar...")
+    print("Passou {} ano(s) que era pra ter se alistado".format(idade-18))
+
+elif idade < 18:
+    print("Voce ainda nao tem idade para se alistar")
+    print("Falta {} ano(s) para voce se alistar".format(18-idade))
+
+else:
+    print("Voce esta na idade certa para se alistar no alistamento militar")
+    print("boa sorte no alistamento !!!")
 
