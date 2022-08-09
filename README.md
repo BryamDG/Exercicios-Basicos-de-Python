@@ -244,4 +244,29 @@ elif idade < 18:
 else:
     print("Voce esta na idade certa para se alistar no alistamento militar")
     print("boa sorte no alistamento !!!")
+    
+***
+# NOVA REVISAO 
+
+from random import choice
+import random
+from time import sleep
+
+for começa in range (10,-2,-2):
+    print(começa)
+    sleep(1)
+
+print("PROGRAMA NOVO INICIADO\n")
+
+print ("vamos escolher um dos nomes ??")
+lista=["bryam","brendon","bruno","bruna"]
+print("lista: {}",format (lista))
+
+escolha=random.choice(lista)
+print(" o nome escolhido será:",escolha)
+
+if escolha ==
+"bruno":
+    print ("viado !!")
+
 
