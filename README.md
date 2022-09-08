@@ -268,5 +268,28 @@ print(" o nome escolhido será:",escolha)
 if escolha ==
 "bruno":
     print ("viado !!")
+    
+# ENVIO DE EMAIL AUTOMATICO
+import smtplib
+import email.message
+
+def enviar_email():
+    corpo_email= """
+    <p> Teste de envio de email </p>
+    <p> Teste do 2 paragrafo no email <p/>
+    """
+    msg=email.message.message()
+    msg ['subject']= "ESTUDO"
+    msg ['from']= "bryam.die@hotmail.com"
+    msg['to']= "bruno.dg@hotmail.com.br"
+    password= 'senha'
+    msg.add_header ('content-type','text/html')
+    msg.set_payload (corpo_email)
+
+    s=smtplib.smtp('bryam.die@hotmail.com:587')
+    s.starttls()
+    s.login(msg['from'],password)
+    s.sendmail(msg['from'],[msg['to']], msg.as_string().incode('utf-8'))
+    enviar_email()
 
 
